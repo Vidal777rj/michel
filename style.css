@@ -196,12 +196,16 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 
+.services-list p{
+    margin-bottom: 10px;
+}
+
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    margin-right: 80px;
     font-size: 12px;
-    margin-top: 28px;
+    margin-right: 80px;
+    margin-top: 30px;
     display: inline-block;
 }
 
