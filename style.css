@@ -178,7 +178,7 @@ nav ul li a:hover::after{
 
 .services-list div{
     background: #262626;
-    padding: 35px;
+    padding: 32px;
     font-size: 14px;
     font-weight: 300;
     border-radius: 6px;
@@ -196,15 +196,20 @@ nav ul li a:hover::after{
     margin-bottom: 15px;
 }
 
-.services-list p{
+.services-list h3{
+    color: #fff;
     margin-bottom: 8px;
+}
+
+.services-list p{
+    margin-bottom: 6px;
 }
 
 .services-list div a{
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-    margin-right: 80px;
+    margin-right: 90px;
     margin-top: 10px;
     display: inline-block;
 }
