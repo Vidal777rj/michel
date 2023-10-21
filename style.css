@@ -282,7 +282,7 @@ nav ul li a:hover::after{
 }
 .contact-left p i{
     color: #fff;
-    margin-right: 15px;
+    margin-right: 2px;
     font-size: 30px;
 }
 .social-icons{
@@ -324,12 +324,15 @@ nav ul li a:hover::after{
 }
 
 .btn.btn2{
-    display: inline-block;
+    display:inline-block;
     background-color: #1128ac;
     border: 3px solid black;
-    width: fit-content;
+    width: 50%;
     border: 1px solid ;
     cursor: pointer;
+    margin-bottom: 1px;
+
+    text-align: center;
 }
 
 .btn.btn2:hover{
@@ -337,13 +340,15 @@ nav ul li a:hover::after{
     transition: 1s;
 }
 
+
 .copyright{
-    margin: 0;
+    margin: 30px 0 1px 0;
     width: 100%;
     text-align: center;
     padding: 1px 0;
     font-weight: 300;
 }
+
 
 @media only screen and (max-with: 600px){
     #header-text{
