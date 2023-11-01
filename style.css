@@ -171,15 +171,15 @@ nav ul li a:hover::after{
 
 .services-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 40px;
-    margin-top: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 30px;
+    margin-top: 30px;
 }
 
 .services-list div{
     background: #262626;
-    padding: 35px;
-    font-size: 14px;
+    padding: 32px;
+    font-size: 20px;
     font-weight: 300;
     border-radius: 6px;
     transition: background 0.5s, transforme 0.5s;
@@ -191,24 +191,33 @@ nav ul li a:hover::after{
 }
 
 .services-list div h2{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 15px;
+}
+
+.services-list h3{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.services-list p{
+    margin-bottom: 6px;
 }
 
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    margin-right: 80px;
-    font-size: 12px;
-    margin-top: 28px;
+    font-size: 18px;
+    margin-right: 90px;
+    margin-top: 10px;
     display: inline-block;
 }
 
 .services-list div a:hover{
     text-decoration: none;
     color: black;
-    
 }
 
 .services-list div:hover{
@@ -274,7 +283,7 @@ nav ul li a:hover::after{
 }
 .contact-left p i{
     color: #fff;
-    margin-right: 15px;
+    margin-right: 2px;
     font-size: 30px;
 }
 .social-icons{
@@ -316,12 +325,15 @@ nav ul li a:hover::after{
 }
 
 .btn.btn2{
-    display: inline-block;
+    display:inline-block;
     background-color: #1128ac;
     border: 3px solid black;
-    width: fit-content;
+    width: 50%;
     border: 1px solid ;
     cursor: pointer;
+    margin-bottom: 1px;
+
+    text-align: center;
 }
 
 .btn.btn2:hover{
@@ -329,13 +341,15 @@ nav ul li a:hover::after{
     transition: 1s;
 }
 
+
 .copyright{
-    margin: 0;
+    margin: 30px 0 1px 0;
     width: 100%;
     text-align: center;
     padding: 1px 0;
     font-weight: 300;
 }
+
 
 @media only screen and (max-with: 600px){
     #header-text{
