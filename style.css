@@ -114,7 +114,6 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: #091a80;
     margin-bottom: 10px;
-
 }
 
 .tab-titles{
@@ -222,6 +221,39 @@ nav ul li a:hover::after{
 
 .services-list div:hover{
     background: #1128ac;
+}
+
+/* ------------------------ English ------------------------ */
+.english-list p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.english-list span{
+    color: red;
+}
+
+.list-english{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 160px;
+}
+
+
+.list-english h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.english-list li{
+    font-size: 18px;
+    font-size: 200;
+}
+
+.sub-title{
+    margin-left: 20px;
 }
 
 /* ------------------------ Portfolio ------------------------ */
