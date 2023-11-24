@@ -230,10 +230,6 @@ nav ul li a:hover::after{
     margin: 20px;
 }
 
-.english-list span{
-    color: red;
-}
-
 .list-english{
     margin-top: 20px;
     margin-left: 20px;
