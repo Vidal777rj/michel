@@ -184,9 +184,10 @@ nav ul li a:hover::after{
     transition: background 0.5s, transforme 0.5s;
 }
 
+
 .services-list div i{
     font-size: 18px;
-    margin-bottom: 12px;
+    margin-bottom: 25px;
 }
 
 .services-list div h2{
@@ -315,6 +316,14 @@ nav ul li a:hover::after{
     margin-right: 2px;
     font-size: 30px;
 }
+
+.contact-left .current{
+    display: flex;
+}
+.contact-left .current a{
+    margin-left: 30px;
+    
+}
 .social-icons{
     margin-top: 30px;
 }
@@ -372,7 +381,7 @@ nav ul li a:hover::after{
 
 
 .copyright{
-    margin: 30px 0 1px 0;
+    margin: 60px 0 1px 0;
     width: 100%;
     text-align: center;
     padding: 1px 0;
