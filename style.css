@@ -17,6 +17,12 @@ body {
     background-position: center;
 }
 
+#header .container hr{
+    width: 100px;
+    height: 2px;
+    margin-top: 8px;
+}
+
 figure {
     display: flex;
     flex-direction: column;
