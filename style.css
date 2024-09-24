@@ -18,7 +18,7 @@ body {
 }
 
 #header .container hr{
-    width: 130px;
+    width: 150px;
     height: 4px;
     margin-top: 8px;
     background-color: #080808;
@@ -87,6 +87,17 @@ nav ul li a:hover::after {
 .header-text span {
     color: rgb(99, 95, 95);
 }
+.header-text hr {
+    width: 150px;
+    height: 4px;
+    margin-top: 8px;
+    background-color: #080808;
+}
+
+.line-about{
+    border: 4px solid rgb(99, 95, 95);
+    width: 70%;
+}
 
 /* ------------------------ About ------------------------ */
 
@@ -94,7 +105,6 @@ nav ul li a:hover::after {
     padding: 60px 0;
     color: #080808;
 }
-
 .row {
     display: flex;
     justify-content: space-between;
@@ -156,7 +166,9 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 8px 0;
+    flex-direction: row;
 }
+
 
 .tab-contents ul li span {
     color: rgb(99, 95, 95);
@@ -302,12 +314,12 @@ nav ul li a:hover::after {
 
 .layer h3 {
     font-weight: 700;
-    margin-bottom: 1px;
-    margin-top: 12px;
+    margin-bottom: 8px;
+    margin-top: 18px;
 }
 
 .layer a {
-    margin-top: 18px;
+    margin-top: 30px;
     text-decoration: none;
     font-size: 18px;
     padding-right: 80px;
@@ -317,7 +329,7 @@ nav ul li a:hover::after {
 
 .layer a:hover {
     color: #fff;
-    transition: 0.8s;
+    transition: 1s;
 }
 
 /* ------------------------ Contact ------------------------ */
