@@ -88,15 +88,21 @@ nav ul li a:hover::after {
     color: rgb(99, 95, 95);
 }
 .header-text hr {
-    width: 150px;
-    height: 4px;
-    margin-top: 8px;
+    width: 140px;
+    height: 2px;
+    margin-top: 2px;
+    margin-left: 6px;
     background-color: #080808;
 }
 
 .line-about{
-    border: 4px solid rgb(99, 95, 95);
-    width: 70%;
+    border: 2px solid rgb(99, 95, 95);
+    width: 50%;
+}
+
+.line-aboutt{
+    border: 2px solid rgb(99, 95, 95);
+    width: 100%;
 }
 
 /* ------------------------ About ------------------------ */
