@@ -335,11 +335,11 @@ nav ul li a:hover::after {
     font-size: 18px;
     padding-right: 80px;
     line-height: 60px;
-    color: #080808;
+    color: rgb(235, 221, 221);;
 }
 
 .layer a:hover {
-    color: #fff;
+    color: #928e8e;
     transition: 1s;
 }
 
