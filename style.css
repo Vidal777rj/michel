@@ -90,7 +90,7 @@ nav ul li a:hover::after {
 .header-text hr {
     width: 140px;
     height: 2px;
-    margin-top: 2px;
+    margin-top: 3px;
     margin-left: 6px;
     background-color: #ffffff;
 }
@@ -130,8 +130,11 @@ nav ul li a:hover::after {
 .about-col-2 {
     flex-basis: 65%;
     font-size: 18px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+}
 
+.about-col-2 p{
+    margin-top: 28px;
 }
 
 .sub-title {
@@ -172,7 +175,7 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 8px 0;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
 
@@ -283,6 +286,7 @@ nav ul li a:hover::after {
 
 .sub-title {
     margin-left: 20px;
+    margin-top: 80px;
 }
 
 /* ------------------------ Portfolio ------------------------ */
