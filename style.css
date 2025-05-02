@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +17,7 @@ body {
     background-position: center;
 }
 
-#header .container hr{
+#header .container hr {
     width: 150px;
     height: 4px;
     margin-top: 8px;
@@ -88,6 +87,7 @@ nav ul li a:hover::after {
 .header-text span {
     color: rgb(99, 95, 95);
 }
+
 .header-text hr {
     width: 140px;
     height: 2px;
@@ -96,12 +96,12 @@ nav ul li a:hover::after {
     background-color: #ffffff;
 }
 
-.line-about{
+.line-about {
     border: 2px solid rgb(99, 95, 95);
     width: 50%;
 }
 
-.line-aboutt{
+.line-aboutt {
     border: 2px solid rgb(99, 95, 95);
     width: 100%;
 }
@@ -112,6 +112,7 @@ nav ul li a:hover::after {
     padding: 60px 0;
     color: #FFFFFF;
 }
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -134,7 +135,7 @@ nav ul li a:hover::after {
     margin-bottom: 200px;
 }
 
-.about-col-2 p{
+.about-col-2 p {
     margin-top: 28px;
 }
 
@@ -330,7 +331,7 @@ nav ul li a:hover::after {
     margin-top: 18px;
 }
 
-.layer p{
+.layer p {
     color: rgb(173, 168, 168);
 }
 
@@ -340,7 +341,8 @@ nav ul li a:hover::after {
     font-size: 18px;
     padding-right: 80px;
     line-height: 60px;
-    color: rgb(235, 221, 221);;
+    color: rgb(235, 221, 221);
+    ;
 }
 
 .layer a:hover {
@@ -401,11 +403,11 @@ nav ul li a:hover::after {
     transition: 0.8s;
 }
 
-#curriculo{
+#curriculo {
     color: rgb(2, 2, 2);
 }
 
-#curriculo:hover{
+#curriculo:hover {
     color: #FFF;
     transition: 1s;
 }
