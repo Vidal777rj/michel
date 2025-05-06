@@ -227,11 +227,11 @@ nav ul li a:hover::after {
     font-size: 26px;
     font-weight: 500;
     margin-bottom: 15px;
-    color: #fff
+    color: black;
 }
 
 .services-list h3 {
-    color: #080808;
+    color: #fff;
     font-size: 16px;
     margin-top: 12px;
     margin-bottom: 12px;
